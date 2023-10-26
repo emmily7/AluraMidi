@@ -1,6 +1,6 @@
 :root {
   --cinza: #aaa;
-  --vermelha: #6212e4;
+  --vermelha: #32aab9;
   --vermelha-escura: #30a0af;
   --branca: #fff;
   --luz: rgb(229, 255, 0);
@@ -8,7 +8,7 @@
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #30b7cf 0%,#8948c5 100%);
+  background: linear-gradient(45deg, #a02832 0%,#2f13cc 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -55,6 +55,7 @@ h1 {
   outline: none;
 }
 
+
 .tecla.focus,
 .tecla:focus {
   outline: none;
@@ -66,7 +67,19 @@ h1 {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
 }
 
-  .imagem { 
-    left: 300px;
-    width: 100px;
-  }
+
+.container {
+  position: relative;
+}
+
+img {
+  position: relative;
+  right: 450px;
+  top: -300px;
+}
+ 
+.bateria {
+  position: relative;
+  left: 1000px;
+  top: -150px;;
+}
